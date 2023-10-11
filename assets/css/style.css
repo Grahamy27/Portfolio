@@ -1,0 +1,134 @@
+:root {
+    --text2: black;
+    --text3: gold;
+    --background: purple;
+    --text1: orange;
+    --container: 69.375rem;
+}
+
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+
+body {
+    margin: 0;
+    font-family:'Arial Narrow Bold', sans-serif; 
+    background-color: var(--background);
+    color: var(--text1);
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.wrapper {
+    width: calc(100% - 2rem);
+    max-width: var(--container);
+    margin-inline: auto;
+}
+
+h1 {
+    display: inline-flex;
+    font-size: 30px;
+    line-height: 1.5;
+    margin: 5;
+    color: var(--text3);
+}
+
+h2 {
+    display: inline-flex;
+    line-height: 1.5;
+    color: var(--text3);
+}
+
+.container {
+    float: right;
+    display: flex;
+    list-style-type: none;
+    margin: 20px;
+    padding: 10px;
+}
+
+.container li {
+    padding-top: 30%;
+    padding-bottom: 30;
+    padding: 0 0 0 5rem;
+    color: black;
+}
+
+.hero {
+    display: inline;
+}
+
+#about {
+    font-size: 50px;
+    margin: 20px;
+}
+
+.bio {
+    margin: 20px;
+    font-size: 20px;
+}
+
+#graham {
+    float: right;
+    margin: 130px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#work {
+    margin: 20px;
+    font-size: 30px;
+    display: block;
+}
+
+#horiseon {
+    float: center;
+    margin: 30px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    max-width: 400px;
+
+}
+
+.future {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contact {
+    margin: 20px;
+}
+
+.aside {
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 190px;
+    margin-top: -65px;
+    margin-bottom: -20px;
+    padding: 10px;
+}
+.aside li {
+    padding: 0 0 0 5rem;
+    color: #fff;
+}
+.footer {
+    padding: auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
