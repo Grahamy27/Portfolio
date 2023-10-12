@@ -1,25 +1,29 @@
 :root {
-    --text2: black;
+    --text2: aqua;
     --text3: gold;
     --background: purple;
     --text1: orange;
     --container: 69.375rem;
 }
-
-
 html {
     box-sizing: border-box;
     font-size: 100%;
 }
-
 
 body {
     margin: 0;
     font-family:'Arial Narrow Bold', sans-serif; 
     background-color: var(--background);
     color: var(--text1);
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
+}
+nav ul li a {
+    padding-top: 30%;
+    padding-bottom: 30;
+    padding: 0 0 0 5rem;
+    text-decoration: none;
+    color: var(--text2);
 }
 
 .wrapper {
@@ -29,32 +33,27 @@ body {
 }
 
 h1 {
-    display: inline-flex;
+    display: inline-block;
     font-size: 30px;
     line-height: 1.5;
-    margin: 5;
-    color: var(--text3);
-}
-
-h2 {
-    display: inline-flex;
-    line-height: 1.5;
+    margin: 5px 5px;
     color: var(--text3);
 }
 
 .container {
     float: right;
     display: flex;
+    justify-content: flex-end;
     list-style-type: none;
     margin: 20px;
     padding: 10px;
-}
+    color: var(--text2);
 
-.container li {
-    padding-top: 30%;
-    padding-bottom: 30;
-    padding: 0 0 0 5rem;
-    color: black;
+}
+.container li{
+padding: 0 0 0 5rem;
+color: var(--text2);
+text-decoration: none;
 }
 
 .hero {
@@ -73,27 +72,43 @@ h2 {
 
 #graham {
     float: right;
-    margin: 130px;
+    margin: 100px;
     margin-top: -20px;
     margin-bottom: -20px;
     max-width: 300px;
     max-height: 300px;
 }
 
-#work {
+.work {
     margin: 20px;
     font-size: 30px;
     display: block;
 }
 
-#horiseon {
-    float: center;
-    margin: 30px;
-    margin-top: -20px;
-    margin-bottom: -20px;
-    max-width: 400px;
-
+.horiseon {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    border: 1px solid black(0, 0, 0, 0);
+    width: 30px;
+    margin-bottom: 30px;
+    flex-direction: row;
+ 
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: var(--background);
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: var(--background);
+    border: 1px solid var(--text2);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
 
 .future {
     display: flex;
@@ -102,6 +117,7 @@ h2 {
 
 #contact {
     margin: 20px;
+    color: var(--text2);
 }
 
 .aside {
@@ -113,14 +129,17 @@ h2 {
     margin-top: -65px;
     margin-bottom: -20px;
     padding: 10px;
+   
 }
 .aside li {
     padding: 0 0 0 5rem;
-    color: #fff;
+    color: var(--text2);
+    text-decoration: none;
 }
 .footer {
-    padding: auto;
     text-align: center;
+    color: var(--text1);
+    text-decoration: none;
 }
 
 
