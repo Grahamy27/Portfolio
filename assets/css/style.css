@@ -85,16 +85,7 @@ text-decoration: none;
     display: block;
 }
 
-.horiseon {
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 10px;
-    border: 1px solid black(0, 0, 0, 0);
-    width: 30px;
-    margin-bottom: 30px;
-    flex-direction: row;
  
-}
 
 .grid-container {
     display: grid;
@@ -125,7 +116,7 @@ text-decoration: none;
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
-    margin: 190px;
+    margin: 80px;
     margin-top: -65px;
     margin-bottom: -20px;
     padding: 10px;
